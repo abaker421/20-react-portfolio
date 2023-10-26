@@ -1,7 +1,14 @@
+import {Link} from 'react-router-dom'
+
+
+
 const Footer = props => {
+    const githubUrl = props.githubUrl
+
     return (
         <div className="card">
-            <h2>Footer</h2>
+            {/* <Link to = githubUrl>Link to Developer Github Profile</Link> */}
+            <p>Footer</p>
         </div>
     )
 }
